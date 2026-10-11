@@ -12,7 +12,12 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    return joblib.load("/content/sugarcane_irrigation_model.pkl")
+    from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+
+def load_model():
+    return joblib.load(BASE_DIR / "sugarcane_irrigation_model.pkl")
 
 model = load_model()
 
