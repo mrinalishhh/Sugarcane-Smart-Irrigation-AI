@@ -1,0 +1,7 @@
+SNR_dB,Normal_Priority_Mode,High_Priority_Mode,Normal_Code_Rate,High_Priority_Code_Rate
+0,"Hamming (7,4)","Repetition (3,1)",0.571428571428571,0.333333333333333
+2,"Hamming (7,4)","Repetition (3,1)",0.571428571428571,0.333333333333333
+4,"Hamming (7,4)","Repetition (3,1)",0.571428571428571,0.333333333333333
+6,"Hamming (7,4)","Repetition (3,1)",0.571428571428571,0.333333333333333
+8,"Uncoded BPSK","Hamming (7,4)",1,0.571428571428571
+10,"Uncoded BPSK","Hamming (7,4)",1,0.571428571428571
